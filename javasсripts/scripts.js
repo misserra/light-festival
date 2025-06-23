@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   } else {
     console.error('Элемент .scroll-down не найден');
   }
-  const burgerIcon = document.getElementById('burgerIcon');
+   const burgerIcon = document.getElementById('burgerIcon');
   const menuLinks = document.getElementById('menuLinks');
   const menuContainer = document.querySelector('.menu-container');
   
@@ -24,6 +24,5 @@ document.addEventListener('DOMContentLoaded', function() {
       menuContainer.classList.remove('menu-open');
     });
   });
-  
 });
 
