@@ -56,9 +56,9 @@ html, body {
   position: absolute;
   width: 9.79vw;
   height: 2.76vw;
-  border-radius: 30px;
-  border: 3px solid #ffffff;
-  bottom: 5vw;
+  border-radius: 2vw;
+  border: 0.10vw solid #ffffff;
+  top: 42vw;
   left: 10.21vw;
   transition: all 0.3s ease;
 }
@@ -77,7 +77,7 @@ html, body {
   font-weight: 600;
   color: #ffffff;
   font-size: 1.25vw;
-  bottom: 2.7vw;
+  top: 46vw;
   left: 10vw;
 }
 
@@ -920,7 +920,7 @@ html, body {
   width: 15.89vw;
   height: 3.13vw;
   border-radius: 30px;
-  border: 3px solid #ffffff;
+  border: 0.16vw solid #ffffff;
   bottom: 5vw;
   transition: all 0.3s ease;
 }
@@ -1254,8 +1254,8 @@ html, body {
   position: absolute;
   width: 8.49vw;
   height: 3vw;
-  border-radius: 30px;
-  border: 3px solid #000000;
+  border-radius: 2vw;
+  border: 0.16vw solid #000000;
   top: 40vw;
   right: 42vw;
   transition: all 0.3s ease;
@@ -1355,9 +1355,9 @@ html, body {
 .formsquer {
   width: 43.85vw;
   height: 43.39vw;
-  border-radius: 30px;
+  border-radius: 2vw;
   background-color: #7E8BB2;
-  border: 2px solid #7E8BB2;
+  border: 0.10vw solid #7E8BB2;
   position: absolute;
   top: 15vw;
   left: 28.07vw;
@@ -1365,9 +1365,9 @@ html, body {
 .input-field {
   width: 38.02vw;
   height: 2.50vw;
-  border-radius: 20px;
+  border-radius: 1.04vw;
   background-color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 0.10px solid #ffffff;
   position: absolute;
   padding-left: 1vw;
   box-sizing: border-box;
@@ -1446,9 +1446,9 @@ html, body {
 .buybutton{
   width: 10.16vw;
   height: 2.60vw;
-  border-radius: 30px;
+  border-radius: 2vw;
   background-color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 0.10px solid #ffffff;
   position: absolute;
   top: 52.66vw;
   left: 44.90vw;
@@ -1458,8 +1458,8 @@ html, body {
   font-weight: 600;
   color: #000000;
   font-size: 1.25vw;
-  top: 53.5vw;
-  left: 46.5vw;
+  top: 0.7vw;
+  left: 1.3vw;
 }
 
 .participation-title {
@@ -1476,7 +1476,7 @@ html, body {
 
 .participation-card1 {
   background: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 1.04vw;
   position: absolute;
   top: 20vw;
   left: 5vw;
@@ -1487,7 +1487,7 @@ html, body {
 
 .participation-card2 {
   background: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 1.04vw;
   position: absolute;
   top: 20vw;
   left: 37vw;
@@ -1498,7 +1498,7 @@ html, body {
 
 .participation-card3 {
   background: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 1.04vw;
   position: absolute;
   top: 20vw;
   left: 69vw;
@@ -1539,17 +1539,23 @@ html, body {
 .apply-button {
   width: 12vw;
   height: 3vw;
-  border-radius: 30px;
+  border-radius: 2vw;
   background: #7E8BB2;
   border: none;
   margin: 1vw auto 0;
-  display: block;
+  position: relative; /* Добавляем для правильного позиционирования */
+  display: flex; /* Меняем на flex */
+  align-items: center; /* Центрируем по вертикали */
+  justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .click {
 color: white;
 font-size: 1vw;
+position: static;
+top: 13vw;
+left: 11vw;
 font-weight: 600;
 text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 text-decoration: none;
@@ -1562,7 +1568,7 @@ text-decoration: none;
 
 .program-container {
   background: rgba(255,255,255,0.9);
-  border-radius: 30px;
+  border-radius: 2vw;
   position: absolute;
   top: 10vw;
   left: 20vw;
@@ -1603,7 +1609,7 @@ text-decoration: none;
   grid-template-columns: 1fr 3fr 2fr;
   width: 26vw;
   padding: 0.8vw;
-  border-radius: 15px;
+  border-radius: 0.78vw;
   transition: background 0.3s;
 }
 .program-event:hover {
