@@ -15,7 +15,10 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+#burger{
+  display: none;
+  
+}
 .mainlink {
   position: absolute;
   top: 2.55vw;
