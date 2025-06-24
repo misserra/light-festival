@@ -17,7 +17,7 @@ html, body {
 }
 #burger{
   display: none;
-  
+
 }
 .mainlink {
   position: absolute;
@@ -1264,7 +1264,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-.buy {
+.buy1 {
   position: absolute;
   font-weight: 600;
   color: #000000;
@@ -1309,12 +1309,30 @@ html, body {
   color: #000000;
   font-size: 2.08vw; 
 }
+.buy2 {
+  position: absolute;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.61vw;
+  text-decoration: none;
+  top: 0.7vw;
+  left: 1.1vw;
+}
 .product3{
   width: 33.54vw;
   height: 32.24vw;
   position: absolute;
   top: 11vw;
   left: 9.95vw;
+}
+.buy3 {
+  position: absolute;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.61vw;
+  text-decoration: none;
+  top: 0.7vw;
+  left: 1.1vw;
 }
 .product4{
   width: 28.85vw;
@@ -1330,6 +1348,15 @@ html, body {
   font-weight: normal;
   color: #000000;
   font-size: 1.04vw;
+}
+.buy4 {
+  position: absolute;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.61vw;
+  text-decoration: none;
+  top: 0.7vw;
+  left: 1.1vw;
 }
 .descrip5 {
   position: absolute;
@@ -1347,6 +1374,15 @@ html, body {
   color: #000000;
   font-size: 2.08vw; 
 }
+.buy5 {
+  position: absolute;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.61vw;
+  text-decoration: none;
+  top: 0.7vw;
+  left: 1.1vw;
+}
 .descrip6 {
   position: absolute;
   top: 18.5vw;
@@ -1354,6 +1390,15 @@ html, body {
   font-weight: normal;
   color: #000000;
   font-size: 1.04vw;
+}
+.buy6 {
+  position: absolute;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1.61vw;
+  text-decoration: none;
+  top: 0.7vw;
+  left: 1.1vw;
 }
 .formsquer {
   width: 43.85vw;
@@ -1546,9 +1591,9 @@ html, body {
   background: #7E8BB2;
   border: none;
   margin: 1vw auto 0;
-  position: relative; /* Добавляем для правильного позиционирования */
-  display: flex; /* Меняем на flex */
-  align-items: center; /* Центрируем по вертикали */
+  position: relative; 
+  display: flex; 
+  align-items: center; 
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
